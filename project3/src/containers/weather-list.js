@@ -9,6 +9,9 @@ export default class WeatherList extends Component {
             <th>City</th>
           </tr>
         </thead>
+        <tbody>
+          
+        </tbody>
       </table>
     )
   }
