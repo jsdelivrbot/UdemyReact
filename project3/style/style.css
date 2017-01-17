@@ -1,7 +1,15 @@
+* {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .input-group {
   margin:  20px 0px;
 }
 
 td, th {
   vertical-align: middle !important;
+  text-align: center !important;
 }
