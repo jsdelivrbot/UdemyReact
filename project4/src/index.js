@@ -10,6 +10,6 @@ const createStoreWithMiddleware = applyMiddleware()(createStore);
 
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
-    
+    <Router history={browserHistory} />
   </Provider>
   , document.querySelector('.container'));
