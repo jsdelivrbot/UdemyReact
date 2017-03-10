@@ -7,3 +7,5 @@ class PostsNew extends Component {
     );
   }
 }
+
+export default PostsNew;
