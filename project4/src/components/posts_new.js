@@ -20,6 +20,8 @@ class PostsNew extends Component {
           <label>Content</label>
           <textarea type="text" className='form-control'/>
         </div>
+
+        <button type='submit' className='btn btn-primary'>Submit</button>
       </form>
     );
   }
