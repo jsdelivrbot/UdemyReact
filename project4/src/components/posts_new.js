@@ -10,6 +10,16 @@ class PostsNew extends Component {
           <label>Title</label>
           <input type="text" className='form-control'/>
         </div>
+
+        <div className='form-group'>
+          <label>Title</label>
+          <input type="text" className='form-control'/>
+        </div>
+        
+        <div className='form-group'>
+          <label>Title</label>
+          <input type="text" className='form-control'/>
+        </div>
       </form>
     );
   }
