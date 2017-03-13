@@ -12,13 +12,13 @@ class PostsNew extends Component {
         </div>
 
         <div className='form-group'>
-          <label>Title</label>
+          <label>Categories</label>
           <input type="text" className='form-control'/>
         </div>
-        
+
         <div className='form-group'>
-          <label>Title</label>
-          <input type="text" className='form-control'/>
+          <label>Content</label>
+          <textarea type="text" className='form-control'/>
         </div>
       </form>
     );
