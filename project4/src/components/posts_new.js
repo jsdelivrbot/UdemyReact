@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import { reduxForm } from 'redux-form';
+import { createPost } from '../actions/index';
 
 class PostsNew extends Component {
   render() {
