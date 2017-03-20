@@ -31,10 +31,12 @@ class PostsNew extends Component {
 }
 
 function validate(values){
-  
+  const errors = {};
+  return errors;
 }
 
 export default reduxForm({
   form: 'PostNewForm',
-  fields: ['title', 'categories', 'content']
+  fields: ['title', 'categories', 'content'],
+  validate
 }, null, { createPost })(PostsNew);
