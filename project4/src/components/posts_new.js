@@ -30,6 +30,10 @@ class PostsNew extends Component {
   }
 }
 
+function validate(values){
+  
+}
+
 export default reduxForm({
   form: 'PostNewForm',
   fields: ['title', 'categories', 'content']
