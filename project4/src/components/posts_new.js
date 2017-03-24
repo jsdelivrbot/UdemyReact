@@ -39,6 +39,12 @@ function validate(values){
   if (!values.title){
     errors.title = 'Enter a user name!';
   }
+  if (!values.categories) {
+    errors.categories = 'Enter categories!';
+  }
+  if (!values.content) {
+    errors.content = 'Enter some content';
+  }
   return errors;
 }
 
