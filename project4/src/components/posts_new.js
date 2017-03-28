@@ -9,7 +9,10 @@ class PostsNew extends Component {
   };
 
   onSubmit(props){
-    this.props.createPost(props);;
+    this.props.createPost(props)
+      .then(() => {
+        //
+      });
   }
 
   render() {
