@@ -5,3 +5,5 @@ class PostsShow extends Component {
     return <div>Show post {this.props.param.id}</div>
   }
 }
+
+export default PostsShow;
