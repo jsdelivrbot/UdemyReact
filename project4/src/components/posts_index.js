@@ -8,6 +8,14 @@ class PostsIndex extends Component {
     this.props.fetchPosts();
   }
 
+  renderPosts(){
+    return this.props.posts.map((post) => {
+      return (
+        <li className="list-group-item" key={post.id}></li>
+      )
+    })
+  }
+
   render () {
     return (
       <div>
